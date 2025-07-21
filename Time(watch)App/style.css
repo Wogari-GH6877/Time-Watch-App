@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+     background-image: url(./images/image.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#clockContainer{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 5.5rem;
+    
+}
+#clock{
+    font-family: monospace;
+    text-align: center;
+    color: white;
+    width: 100%;
+    font-weight: 500;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 0 5px gray;
+    
+}
